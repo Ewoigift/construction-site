@@ -130,22 +130,85 @@ img {
   align-items: center;
   height: 9rem;
   width: 100%;
+<<<<<<< Updated upstream
   padding: 6rem;
+=======
+  padding: 0 2.5rem;
+>>>>>>> Stashed changes
   z-index: 100;
   
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-width: 1023px) {
+=======
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 1070px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #333;
+    margin: 0.5rem 0;
+    transition: all 0.3s;
+  }
+
+  .nav__links{
+    height:0;
+    position:absolute;
+    top:20px;
+    left:0;
+    right:0;
+    width:100vw;
+    transition:0.5s;
+    overflow:hidden;
+  }
+
+  .nav__links.active{
+    height:auto;
+  }
+  
+ 
+  .nav ul{
+    display:block;
+    width:fit-content;
+    margin:80px auto 0 auto;
+    text-align:center;
+    transition:0.5s;
+    opacity:0;
+  }
+
+  .nav__links.active ul{
+    opacity:1;
+  }
+
+  .nav ul li a{
+    margin-bottom:12px;
+  }
+}
+
+
+
+
+/* @media only screen and (min-width: 1023px) {
+>>>>>>> Stashed changes
   .nav {
     padding: 0 3rem;
   }
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .nav {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
-}
+} */  */
 
 /* nav and stickly class at the same time */
 .nav.sticky {
@@ -160,12 +223,12 @@ img {
   transition: all 0.3s;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .nav__logo {
     height: 7rem;
-    left: 0;
+    left:0;
   }
-}
+} */
 
 @media only screen and (max-width: 767px) {
   .nav {
@@ -207,12 +270,11 @@ img {
 .nav__links {
   display: flex;
   align-items: center;
-  justify-content: space-between;;
   list-style: none;
 }
 
 .nav__item {
-  margin-left: 4rem;
+  margin-left:4rem;
 } 
 
 .nav__link:link,
@@ -233,6 +295,7 @@ img {
   color: #222;
 }
 
+
 .nav__link--btn:hover,
 .nav__link--btn:active {
   color: inherit;
@@ -240,7 +303,15 @@ img {
   color: #333;
 }
 
+<<<<<<< Updated upstream
 
+=======
+/* @media only screen and (min-width: 768px) {
+  .nav__link--btn {
+    padding: 0;
+  }
+} */
+>>>>>>> Stashed changes
 /* HEADER */
 .header {
   padding: 0 3rem;
