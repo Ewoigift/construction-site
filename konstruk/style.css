@@ -377,6 +377,7 @@ ul {
 }
 .copyright p {
   font-size: 15px;
+
 }
 body.nav-expanded .offwrap {
   left: 0%;
@@ -806,7 +807,7 @@ blockquote p {
 /* ------------------------------------
 	02. Global Class CSS
 ---------------------------------------*/
-.y-middle {
+/* .y-middle {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -816,7 +817,7 @@ blockquote p {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-}
+} */
 .y-bottom {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -1824,6 +1825,7 @@ blockquote p {
   position: relative !important;
 }
 .sec-title {
+  margin-top: 30px;
   position: relative;
 }
 .sec-title .sub-text {
@@ -1881,6 +1883,7 @@ blockquote p {
   color: #e88e2e;
 }
 .sec-title .sub-text.sub-text7 {
+
   margin: 0 0 5px;
   color: #cd2010;
 }
@@ -3982,8 +3985,8 @@ body .search-modal .close:hover {
   /*-- Animations Start --*/
 
   /*-- Animations End --*/
-
 }
+
 .rs-slider.rs-slider-style2 .slider-bottom {
   display: block;
   overflow: hidden;
@@ -4336,9 +4339,11 @@ body .search-modal .close:hover {
   content: '';
   z-index: -11;
 }
+
 .rs-slider.rs-slider-style2.rs-slider-style7 .nivo-directionNav > a {
   background: #183650;
 }
+
 .rs-slider.rs-slider-style2.rs-slider-style9 .slider-bottom {
   display: block;
   overflow: hidden;
